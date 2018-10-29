@@ -1,5 +1,4 @@
 ports:
   - port: 8080
-    protocol: "http"
 tasks:
-  - command: "npm install http-server -g && echo "hello .gitpod.yml" && http-server -p 8080"
+  - command: "npm install http-server -g && echo 'hello .gitpod.yml' && http-server -p 8080"
